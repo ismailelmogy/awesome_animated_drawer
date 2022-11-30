@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/widgets/drawer/drawer_index.dart';
 import '../../../../core/widgets/drawer/drawer_user_controller.dart';
-import '../drawer_navigation/drawer_navigation_bloc.dart';
+import '../bloc/drawer_navigation_bloc.dart';
 
 class NavigationHomeScreen extends StatefulWidget {
   const NavigationHomeScreen({super.key});

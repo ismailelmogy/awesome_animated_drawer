@@ -5,7 +5,8 @@ import 'config/routes/app_routes.dart';
 import 'config/themes/app_theme.dart';
 import 'core/utils/app_strings.dart';
 import 'features/change_language/presentation/bloc/locale_bloc.dart';
-import 'features/drawer_navigation/presentation/drawer_navigation/drawer_navigation_bloc.dart';
+
+import 'features/drawer_navigation/presentation/bloc/drawer_navigation_bloc.dart';
 import 'injection_container.dart' as di;
 
 class AwesomeAnimatedDrawerApp extends StatefulWidget {

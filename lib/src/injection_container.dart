@@ -5,7 +5,7 @@ import 'core/api/api_consumer.dart';
 import 'core/api/app_interceptors.dart';
 import 'core/api/dio_consumer.dart';
 import 'features/change_language/change_lang_injection_container.dart';
-import 'features/drawer_navigation/presentation/drawer_navigation/drawer_navigation_bloc.dart';
+import 'features/drawer_navigation/presentation/bloc/drawer_navigation_bloc.dart';
 
 final sl = GetIt.instance;
 Future<void> init() async {
