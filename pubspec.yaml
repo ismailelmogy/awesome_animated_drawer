@@ -1,0 +1,60 @@
+name: awesome_animated_drawer
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_offline: ^2.1.0
+  flutter_spinkit: ^5.1.0
+  fluttertoast: ^8.1.1
+  get_it: ^7.2.0
+  google_fonts: ^3.0.1
+  shared_preferences: ^2.0.15
+  simple_animations: ^4.2.0
+  supercharged: ^2.1.1
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lang/en.json
+    - lang/ar.json
+    - assets/images/feedback_image.png
+    - assets/images/help_image.png
+    - assets/images/invite_image.png
+    - assets/images/support_icon.png
+    - assets/images/default_profile_image.png
+    - assets/images/design_course.png
+    - assets/images/introduction_animation.png
+    - assets/images/fitness_app.png
+    - assets/images/hotel_booking.png
+    - assets/images//no_data.png
+
+
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Almarai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Almarai-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Almarai-Light.ttf
+          weight: 300
